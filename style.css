@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    ::-webkit-scrollbar {
+        width: 5px;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background-color: orange;
+      }
+    
+      ::-webkit-scrollbar-track {
+        background: rgb(64, 141, 255);
+      }
+      
+      /* Handle when scrolling */
+      ::-webkit-scrollbar-thumb:active {
+        background-color: #555;
+      }
+    
+}
+
+html{
+    font-size: 16px;
+    font-family: monospace;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://cafefcdn.com/thumb_w/640/203337114487263232/2023/1/8/photo1673196159055-167319615914982280524.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow-x: hidden;
+}
+
+.header{
+    color: white;
+    padding: 20px;
+}
+
+.header .info{
+    margin-top: 40px;
+    font-size: 0.9rem;
+    max-width: 100%;
+}
+
+.moDau{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    color: black;
+}
+
+.moDau .title{
+    font-size: 2rem;
+}
+
+.header .info .if{
+    margin-left: 30px;
+}
+
+.header .info .if .sub{
+    margin-left: 30px;
+    background-color: gray;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+}
+
+.header .info .if span{
+    display: block;
+}
+
+.header .info .if span::before{
+    content: "- ";
+}
+
+.body{
+
+}
+
+.body .form{
+
+    
+}
+
+.body .form iframe{
+max-width: 100%;
+    
+}
